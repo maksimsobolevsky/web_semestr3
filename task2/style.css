@@ -1,0 +1,28 @@
+.wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table th {
+    font-weight: bold;
+}
+
+th, td {
+    width: 100px;
+    height: 30px;
+    border: 2px solid;
+    text-align: center;
+}
+
+#text-content {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
